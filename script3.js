@@ -16,6 +16,16 @@
 // fruits2.shift();
 // console.log(fruits2);
 
+const fruits2 = ["apple", "strawberry", "lemon", "tomota", "lettuce"];
+const lastFruit2 = fruits2[4];
+console.log(lastFruit2);
+
+const vegetables = ["onion", "potato", "carrot"];
+// const lastVegetableIndex = vegetables.lenght - 3;
+const firstVegetable = vegetables[0];
+
+console.log(firstVegetable);
+
 // 2. ['apple', 'banana'] массивын төгсгөлд 'mango' нэм.
 
 // const fruits = ["apple", "banana"];
@@ -75,61 +85,60 @@ console.log(NewNum);
 
 // 11. [1, 2, 3, 4] массиваас хоёр дахь элементийг splice() ашиглан устга.
 
-const number2 = [1, 2, 3, 4, 5, 6];
-number2.splice(1, 3);
-console.log(number2);
+// const number2 = [1, 2, 3, 4, 5, 6];
+// number2.splice(1, 3);
+// console.log(number2);
 
-// 12. [1, 2, 3, 4, 5] массивыг reverse() ашиглан урвуугаар эргүүл.
+// // 12. [1, 2, 3, 4, 5] массивыг reverse() ашиглан урвуугаар эргүүл.
 
-const Numbers3 = [1, 2, 3, 4, 5];
-Numbers3.reverse();
-console.log(Numbers3);
+// const Numbers3 = [1, 2, 3, 4, 5];
+// Numbers3.reverse();
+// console.log(Numbers3);
 
-// 13.['banana', 'apple', 'cherry'] массивыг sort() ашиглан үсгийн дарааллаар эрэмбэл.
+// // 13.['banana', 'apple', 'cherry'] массивыг sort() ашиглан үсгийн дарааллаар эрэмбэл.
 
-const numbers4 = ["apple", "cherry", "banana"];
-const sorted = numbers4.toSorted();
-console.log(sorted);
+// const numbers4 = ["apple", "cherry", "banana"];
+// const sorted = numbers4.toSorted();
+// console.log(sorted);
 
-// 14. Өгөгдсөн хувьсагч массив мөн эсэхийг Array.isArray() ашиглан шалга.
+// // 14. Өгөгдсөн хувьсагч массив мөн эсэхийг Array.isArray() ашиглан шалга.
 
-const cars = ["land", "toyota", "pruis"];
-console.log(Array.isArray(cars));
+// const cars = ["land", "toyota", "pruis"];
+// console.log(Array.isArray(cars));
 
-// 15. ['red', 'blue', 'green'] массивын нийт уртыг хэвлэ.
+// // 15. ['red', 'blue', 'green'] массивын нийт уртыг хэвлэ.
 
-const text1 = ["red", "blue", "green"];
-console.log(text1.length);
+// const text1 = ["red", "blue", "green"];
+// console.log(text1.length);
 
-const text2 = ["red", "blue", "green"];
-const length = text2.length;
-console.log(length);
+// const text2 = ["red", "blue", "green"];
+// const length = text2.length;
+// console.log(length);
 
-// 16. [10, 20, 30] массивын дундах элемент (20)-ийг 25 болгож солино уу.
+// // 16. [10, 20, 30] массивын дундах элемент (20)-ийг 25 болгож солино уу.
+// const number5 = [10, 20, 30];
+// number5.splice(1, 1, "25");
+// console.log(number5);
 
-const number5 = [10, 20, 30];
-number5.splice(1, 1, "25");
-console.log(number5);
+// // 17.['HTML', 'CSS'] ба ['JavaScript', 'React'] массивуудыг нэгтгээд нийт хэдэн элементтэй болохыг хэвлэ.
 
-// 17.['HTML', 'CSS'] ба ['JavaScript', 'React'] массивуудыг нэгтгээд нийт хэдэн элементтэй болохыг хэвлэ.
+// const text3 = ["HTML", "CSS"];
+// const text4 = ["JavaScript", "React"];
 
-const text3 = ["HTML", "CSS"];
-const text4 = ["JavaScript", "React"];
+// const alltext = text3.concat(text4);
+// console.log(alltext.length);
 
-const alltext = text3.concat(text4);
-console.log(alltext.length);
+// //18.  [1, 2, 3, 4, 5] массиваас сүүлийн 2 элементийг splice() ашиглан устга.
 
-//18.  [1, 2, 3, 4, 5] массиваас сүүлийн 2 элементийг splice() ашиглан устга.
+// const num = [1, 2, 3, 4, 5];
+// num.splice(3, 2);
+// console.log(num);
 
-const num = [1, 2, 3, 4, 5];
-num.splice(3, 2);
-console.log(num);
+// ///19. [5, 10, 15, 20] массиваас гурав дахь элементийг splice() ашиглан хас.
 
-///19. [5, 10, 15, 20] массиваас гурав дахь элементийг splice() ашиглан хас.
-
-const num1 = [5, 10, 15, 20];
-num1.splice(2, 1);
-console.log(num1);
+// const num1 = [5, 10, 15, 20, 30, 40];
+// num1.splice(2, 2);
+// console.log(num1);
 
 // 20.[100, 200, 300] массиваас 200 байгаа эсэхийг шалгаад, байвал “байна”, байхгүй бол “байхгүй” гэж хэвлэ.
 
@@ -154,3 +163,9 @@ if (included) {
 } else {
   console.log("bhgvi");
 }
+
+const car1 = "эүн";
+const car2 = "jfkwe";
+
+const car = [car1, car2];
+console.log(car);
