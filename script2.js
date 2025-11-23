@@ -318,13 +318,28 @@ if (x === y) {
 // console.log(reversed_digits);
 
 
-let Number = "234"
-const myArray = Number.split("")
-console.log(myArray.lenght);
+// let Number = "976"
+// const myArray = Number.split("")
+// const reversedArray = []
+// if (myArray.length >= 0) {
+//     let i = myArray.length - 1
+//     reversedArray.push(myArray[i])
 
+// }
 
-myArray.push()
-console.log(myArray);
+// if (myArray.length >= 0) {
+//     let i = myArray.length - 2
+//     reversedArray.push(myArray[i])
+
+// }
+
+// if (myArray.length >= 0) {
+//     let i = myArray.length - 3
+//     reversedArray.push(myArray[i])
+
+// }
+// reversedStr = reversedArray.join('')
+// console.log(reversedStr);
 
 
 
@@ -344,9 +359,9 @@ console.log(myArray);
 
 //19.Тоо сөрөг бол эерэг болгож, эерэг бол хэвээр үлдээх
 
-let number = -29
-number = Math.abs(number)
-console.log(number);
+// let number = -29
+// number = Math.abs(number)
+// console.log(number);
 
 
 
