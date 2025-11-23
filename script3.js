@@ -17,7 +17,7 @@
 // console.log(fruits2);
 
 const fruits2 = ["apple", "strawberry", "lemon", "tomota", "lettuce"];
-const lastFruit2 = fruits2[4];
+const lastFruit2 = fruits2[3];
 console.log(lastFruit2);
 
 const vegetables = ["onion", "potato", "carrot"];
@@ -61,9 +61,9 @@ console.log(number);
 
 // 7. ['apple', 'banana', 'orange'] массив дотор 'banana' байгаа эсэхийг шалга.
 
-// const fruits = ["apple", "banana", "orange"];
+const fruits = ["apple", "banana", "orange"];
 
-// console.log(fruits.includes("banana"));
+console.log(fruits.includes("banana"));
 
 // 8. ['cat', 'dog', 'bird'] массив дотор 'dog' хэддэх индекст байгааг ол.
 
@@ -74,7 +74,7 @@ console.log(dog);
 // 9.['I', 'love', 'JavaScript'] массивыг join() ашиглан нэг мөр болгон холбож хэвлэ.
 
 const text = ["I", "love", "Java"];
-const sum = text.toString();
+const sum = text.join();
 console.log(sum);
 
 // 10. [10, 20, 30, 40, 50] массиваас эхний 3 элементийг slice() ашиглан аваад шинэ массив үүсгэ.
@@ -85,9 +85,9 @@ console.log(NewNum);
 
 // 11. [1, 2, 3, 4] массиваас хоёр дахь элементийг splice() ашиглан устга.
 
-// const number2 = [1, 2, 3, 4, 5, 6];
-// number2.splice(1, 3);
-// console.log(number2);
+const number2 = [1, 2, 3, 4, 5, 6];
+number2.splice(1, 1);
+console.log(number2);
 
 // // 12. [1, 2, 3, 4, 5] массивыг reverse() ашиглан урвуугаар эргүүл.
 
@@ -103,8 +103,8 @@ console.log(NewNum);
 
 // // 14. Өгөгдсөн хувьсагч массив мөн эсэхийг Array.isArray() ашиглан шалга.
 
-// const cars = ["land", "toyota", "pruis"];
-// console.log(Array.isArray(cars));
+const cars = ["land", "toyota", "pruis"];
+console.log(Array.isArray(cars));
 
 // // 15. ['red', 'blue', 'green'] массивын нийт уртыг хэвлэ.
 
@@ -136,15 +136,15 @@ console.log(NewNum);
 
 // ///19. [5, 10, 15, 20] массиваас гурав дахь элементийг splice() ашиглан хас.
 
-// const num1 = [5, 10, 15, 20, 30, 40];
-// num1.splice(2, 2);
-// console.log(num1);
+const num1 = [5, 10, 15, 20, 30, 40];
+num1.splice(2, 1);
+console.log(num1);
 
 // 20.[100, 200, 300] массиваас 200 байгаа эсэхийг шалгаад, байвал “байна”, байхгүй бол “байхгүй” гэж хэвлэ.
 
 // const num2 = [100, 200, 300];
 
-// if (num2.includes(200) === true) {
+// if (num2.includes(200)) {
 //   console.log("bna");
 // }
 
@@ -156,7 +156,7 @@ console.log(NewNum);
 // console.log(num2.includes(200));
 
 const num2 = [100, 200, 300];
-const included = num2.includes(100);
+const included = num2.includes(400);
 
 if (included) {
   console.log("bna");
@@ -167,5 +167,5 @@ if (included) {
 const car1 = "эүн";
 const car2 = "jfkwe";
 
-const car = [car1, car2];
-console.log(car);
+const cars1 = [car1, car2];
+console.log(cars1);
