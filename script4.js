@@ -61,18 +61,64 @@
 // }
 
 //7. 20 хүртэлх тэгш тоонуудын нийлбэрийг ол.
-let b = 0;
-let n = 10;
-for (let i = 0; i <= n; i++) {
-  a = i % 2;
-  if (a === 0) {
-    b = b + i;
-  }
-}
-console.log(b);
+// let b = 0;
+// let n = 10;
+// for (let i = 0; i <= n; i++) {
+//   a = i % 2;
+//   if (a === 0) {
+//     b = b + i;
+//   }
+// }
+// console.log(b);
 
 //8. 40 хүртэлх сондгой тоонуудын нийлбэрийг ол.
 // let a = 40;
 // for (let i = 0; i <= 40; i++) {
 //   console.log(a);
 // }
+
+//1.  10 аас 1 рүү буурах дарааллаар хэвлэ.
+
+// let number = 0;
+// let i = 10;
+// while (i >= 0) {
+//   console.log(i);
+//   i--;
+// }
+
+//2. Өгөгдсөн n тооны хүрдийг харуул.
+
+// let n = 12;
+// let s = 10;
+
+// for (i = 1; i <= s; i++) {
+//   console.log(n * i);
+// }
+
+/// 3. 987654 дээрх тоо хэдэн оронтой тоо гэдгийг тоол. Result:6
+
+let n = 987654;
+
+const a1 = n % 10;
+console.log(a1);
+
+const a2 = n % 100;
+console.log(a2);
+
+const a3 = n % 1000;
+console.log(a3);
+
+const a4 = n % 10000;
+console.log(a4);
+
+const a5 = n % 100000;
+console.log(a5);
+
+const a6 = n % 1000000;
+console.log(a6);
+
+let num = 98;
+let count = 0;
+for (let i = 0; num > i; i++) {
+  count++;
+}

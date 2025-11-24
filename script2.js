@@ -4,18 +4,15 @@ let weekNumber = 4;
 let weekName;
 
 if (weekNumber === 1) {
-    weekName = "Monday";
-    console.log(weekName);
+  weekName = "Monday";
+  console.log(weekName);
 } else if (weekNumber === 2) {
-    weekName = "Tuesday";
-    console.log(weekName);
+  weekName = "Tuesday";
+  console.log(weekName);
 } else if (weekNumber === 3) {
-    weekName = "wednesday";
-    console.log(weekName);
-}
-else
-    console.log("Thursday");
-
+  weekName = "wednesday";
+  console.log(weekName);
+} else console.log("Thursday");
 
 // const weekNumber = 2;
 
@@ -38,9 +35,7 @@ else
 //   console.log("B их", b);
 // }
 
-
 //2. 3 ширхэг тоон дундах хамгийн их/хамгийн бага
-
 
 // const a = 3;
 // const b = 4;
@@ -60,8 +55,6 @@ else
 //     console.log(" a baga");
 // }
 
-
-
 //3.  Тоог тэгш/сондгой шалгах
 
 // const a = 5
@@ -79,18 +72,14 @@ else
 //   console.log("sondgoi", a);
 // }
 
-
 //4. Стрингийн уртыг хэвлэх
 
 // let text = "sunsta,rmoon";
 // let lenght = text.length;
 // console.log(lenght);
 
-
 // const text = 'dfjweijdfio'
 // console.log(text.length);
-
-
 
 //5.  Стрингийг том үсэг болгож хувиргах
 
@@ -98,10 +87,8 @@ else
 // let result = text.toUpperCase();
 // console.log(result);
 
-const text = 'HOME'
+const text = "HOME";
 console.log(text.toLowerCase());
-
-
 
 // БОДЛОГО: 6. Тоог 3-аар болон 5-аар хуваагддаг эсэхийг шалгах. 3-т хуваагдал Fizz, 5-т хуваагдал Buzz, хоёуланд нь хуваагддаг бол FizzBuzz гэх хэвлэ
 
@@ -154,15 +141,15 @@ console.log(text.toLowerCase());
 //   console.log("negative", a);
 // }
 
-// const a = -107;
+const a = -107;
 
-// if (a > 0) {
-//   console.log("positive number", a);
-// } else if (a === 0) {
-//   console.log("Zero", a);
-// } else {
-//   console.log("negative", a);
-// }
+if (a > 0) {
+  console.log("positive number", a);
+} else if (a === 0) {
+  console.log("Zero", a);
+} else {
+  console.log("negative", a);
+}
 
 // БОДЛОГО: 10. Тоог 10-аас их эсэхийг шалгах
 
@@ -191,13 +178,13 @@ console.log(text.toLowerCase());
 
 //  БОДЛОГО: 12. Тоог 100-аас их, 0-аас бага эсэхийг шалгах
 
-const a = -10;
+// const a = -10;
 
-if (a > 100) {
-    console.log("is greater than number 100");
-} else if (a < 0) {
-    console.log("is less than number 0");
-}
+// if (a > 100) {
+//   console.log("is greater than number 100");
+// } else if (a < 0) {
+//   console.log("is less than number 0");
+// }
 
 //  БОДЛОГО: 13. Тоог 10%, 20% эсвэл 30% өсгөх
 
@@ -236,15 +223,12 @@ const x = 3;
 const y = 5;
 
 if (x === y) {
-    console.log('true');
-
+  console.log("true");
 } else {
-    console.log(false);
-
+  console.log(false);
 }
 
 //18. Хоёр оронтой тооны цифрүүдийг сольж урвуулах
-
 
 // const R = 23
 // const R1 = (R % 10) * 10
@@ -255,11 +239,9 @@ if (x === y) {
 // const number = R1 + S1
 // console.log(number);
 
-
 // const f = 13
 // const m = f % 10
 // console.log(m);
-
 
 // let n = 1234
 
@@ -267,7 +249,6 @@ if (x === y) {
 
 // let k = 0
 // let b = 0
-
 
 // while (n > i) {
 //     k = n % 10 + k * 10
@@ -282,16 +263,13 @@ if (x === y) {
 
 // }
 
-
 // let n = -689
 // let i = 0
 // let isNegative = n < 0
 
-
 // let lastDigit = 0
 // let reversedNum = 0
 // let b = 0
-
 
 // n = Math.abs(n)
 
@@ -306,7 +284,6 @@ if (x === y) {
 //     }
 // }
 
-
 // let n = [23, 4]
 // n.reverse();
 // console.log(n);
@@ -316,7 +293,6 @@ if (x === y) {
 // n2 = Math.floor(Number / 10)
 // reversed_digits = (n1 * 10) + n2
 // console.log(reversed_digits);
-
 
 // let Number = "976"
 // const myArray = Number.split("")
@@ -341,9 +317,6 @@ if (x === y) {
 // reversedStr = reversedArray.join('')
 // console.log(reversedStr);
 
-
-
-
 // const salary = [100, 200, 300]
 // const increaseSalaryPercent = 0.1
 
@@ -356,22 +329,12 @@ if (x === y) {
 
 // }
 
-
 //19.Тоо сөрөг бол эерэг болгож, эерэг бол хэвээр үлдээх
 
 // let number = -29
 // number = Math.abs(number)
 // console.log(number);
 
-
-
-
 //20. 1970.01.01 -ээс яг одоог хүртэл хэдэн он, сар, өдөр, цаг, минут, секунд, дооль, милисекунд өнгөрсөнг ол
 
-
-
-
-
-
 //21. Дугаарын хязгаарлалтаар машин чинь хэд хэд дэх өдөр явахгүйг хэвлэнэ
-
