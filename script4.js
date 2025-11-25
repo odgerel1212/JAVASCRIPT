@@ -97,28 +97,33 @@
 
 /// 3. 987654 дээрх тоо хэдэн оронтой тоо гэдгийг тоол. Result:6
 
-let n = 987654;
+// let n = 987654;
 
-const a1 = n % 10;
-console.log(a1);
+// const a1 = n % 10;
+// console.log(a1);
 
-const a2 = n % 100;
-console.log(a2);
+// const a2 = n % 100;
+// console.log(a2);
 
-const a3 = n % 1000;
-console.log(a3);
+// const a3 = n % 1000;
+// console.log(a3);
 
-const a4 = n % 10000;
-console.log(a4);
+// const a4 = n % 10000;
+// console.log(a4);
 
-const a5 = n % 100000;
-console.log(a5);
+// const a5 = n % 100000;
+// console.log(a5);
 
-const a6 = n % 1000000;
-console.log(a6);
+// const a6 = n % 1000000;
+// console.log(a6);
 
-let num = 98;
+let num = 983;
+let digit = 0;
 let count = 0;
 for (let i = 0; num > i; i++) {
+  digit = num % 10;
+  num = (num - digit) / 10;
   count++;
 }
+
+console.log(count, "jfcksd");
